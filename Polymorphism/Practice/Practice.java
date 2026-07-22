@@ -12,4 +12,20 @@ public class Practice {
 		System.out.println("Integer value :" + number);
 
 	}
+--------------------------------------------------------------------------------------------
+package com.polymorphism;
+
+public class Practice {
+	
+	public void show(int num , String name) {
+		System.out.println("Integer : "+ name);
+		System.out.println("String  : "+ num);
+		
+	}
+	
+	public void show(String name , int num) {
+		System.out.println("String  :"+ name);
+		System.out.println("Integer : "+num);
+	}
+
 }
